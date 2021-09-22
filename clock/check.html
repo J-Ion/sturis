@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="check.css?after">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+  <div class="container" style="text-align: left">
+    
+    <h2>check your to do things :)</h2>
+    
+    <ul>
+    <li>
+      <input type="radio" id="s-option" name="selector">
+      <label for="s-option"><input type="text"></label>
+
+      
+      <div class="check"></div>
+    </li>
+    
+    <li>
+      <input type="radio" id="s-option" name="selector">
+      <label for="s-option"><input type="text"></label>
+      
+      <div class="check"><div class="inside"></div></div>
+    </li>
+    
+    <li>
+      <input type="radio" id="s-option" name="selector">
+      <label for="s-option"><input type="text"></label>
+
+      <div class="check"><div class="inside"></div></div>
+    </li>
+  </ul>
+  </div>
+  
+  <link rel="import" href="https://www.polymer-project.org/0.5/components/paper-ripple/paper-ripple.html">
+  <link rel="import" href="http://www.polymer-project.org/components/core-icons/core-icons.html">
+  <link rel="import" href="http://www.polymer-project.org/components/font-roboto/roboto.html">
+  
+  <section>
+
+    <div class="button raised green" style="text-align: center">
+      <div class="center" fit style="text-align: center">OK</div>
+      <paper-ripple fit></paper-ripple>
+    </div>
+
+    <div position:relative class="button_container">
+      <button onclick="location.href='index.html'"style="position: absolute; right: 30px; bottom: 60px;" class="btn" style="text-align: bottom;"><span>Home</span></button>
+    </div>
+
+</body>
+</html>
