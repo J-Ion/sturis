@@ -1,0 +1,32 @@
+  <!DOCTYPE html>
+  <html lang="en">
+  <head>
+    <link rel="stylesheet" href="clock.css?after">
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>clock</title>
+  </head>
+  <body>
+      <script src="clock.js"></script>
+    <div class="container">
+        <h1 id="headline">Countdown to next year</h1>
+        <div id="countdown">
+          <ul>
+            <li><span id="days"></span>days</li>
+            <li><span id="hours"></span>Hours</li>
+            <li><span id="minutes"></span>Minutes</li>
+            <li><span id="seconds"></span>Seconds</li>
+          </ul>
+        </div>
+        <div id="content" class="emoji">
+          <span>🥳</span>
+          <span>🎉</span>
+          <span>🎂</span>
+        </div>
+      </div>
+      <div position:relative class="button_container">
+        <button onclick="location.href='index.html'" style="position: absolute; right: 30px; bottom: 100px;" class="btn" style="text-align: bottom;"><a href="index.html"></a><span>Home</span></button>
+      </div>
+  </body>
+  </html>
